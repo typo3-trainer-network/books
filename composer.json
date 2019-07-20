@@ -1,0 +1,22 @@
+{
+    "name": "ttn/tea",
+    "description": "TYPO3 Trainer Network Tea Example Extension",
+    "type": "typo3-cms-extension",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "TYPO3 Trainer Network",
+            "email": "trainer-network@typo3.org"
+        }
+    ],
+    "require": {
+        "typo3/cms-extbase": "^9.5"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "tea",
+            "cms-package-dir": "{$vendor-dir}/typo3/cms",
+            "web-dir": ".Build/web"
+        }
+    }
+}
