@@ -1,2 +1,2 @@
-# tea
-Tea example extension for extension developer
+# Books
+Book example extension for extension developer
