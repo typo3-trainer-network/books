@@ -1,6 +1,6 @@
 {
-    "name": "ttn/tea",
-    "description": "TYPO3 Trainer Network Tea Example Extension",
+    "name": "ttn/books",
+    "description": "TYPO3 Trainer Network Books Example Extension",
     "type": "typo3-cms-extension",
     "license": "GPL-2.0-or-later",
     "authors": [
@@ -14,7 +14,7 @@
     },
     "extra": {
         "typo3/cms": {
-            "extension-key": "tea",
+            "extension-key": "books",
             "cms-package-dir": "{$vendor-dir}/typo3/cms",
             "web-dir": ".Build/web"
         }
