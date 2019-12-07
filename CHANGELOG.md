@@ -6,6 +6,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ## x.y.z
 
 ### Added
+- Create all Extbase-relevant folders (#30)
 
 ### Changed
 - Change license from GPL V3+ to GPL V2+ (#2)
