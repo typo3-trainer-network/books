@@ -1,7 +1,12 @@
 {
     "name": "ttn/books",
-    "description": "TYPO3 Trainer Network Books Example Extension",
+    "description": "Books example extension by the TYPO3 Trainer Network",
     "type": "typo3-cms-extension",
+    "keywords": [
+        "typo3",
+        "example",
+        "extension"
+    ],
     "license": "GPL-2.0-or-later",
     "authors": [
         {
@@ -9,10 +14,42 @@
             "email": "trainer-network@typo3.org"
         }
     ],
+    "support": {
+        "issues": "https://github.com/typo3-trainer-network/books/issues",
+        "source": "https://github.com/typo3-trainer-network/books"
+    },
     "require": {
-        "typo3/cms-extbase": "^9.5"
+        "php": "~7.2 || ~7.3 || ~7.4",
+        "typo3/cms-core": "^9.5.4 || ^10.2.0",
+        "typo3/cms-extbase": "^9.5 || ^10.2",
+        "typo3/cms-fluid": "^9.5 || ^10.2",
+        "typo3/cms-frontend": "^9.5 || ^10.2"
+    },
+    "replace": {
+        "typo3-ter/books": "self.version"
+    },
+    "autoload": {
+        "psr-4": {
+            "TTN\\Books\\": "Classes/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TTN\\Books\\Tests\\": "Tests/"
+        }
+    },
+    "prefer-stable": true,
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true,
+        "vendor-dir": ".Build/vendor"
     },
     "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        },
         "typo3/cms": {
             "extension-key": "books",
             "cms-package-dir": "{$vendor-dir}/typo3/cms",
