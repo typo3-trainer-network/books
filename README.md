@@ -9,3 +9,10 @@
 
 This TYPO3 extension is an example for writing TYPO3 extensions.
 Is is used in the trainings provided by the TYPO3 Trainer Network.
+
+## License
+
+The code is licensed under the [Gnu General Public License V2](LICENSE).
+
+The extension icon is taken from [Font Awesome](https://fontawesome.com/)
+and is licensed under the [CC BY 4.0 License](https://fontawesome.com/license/free).
