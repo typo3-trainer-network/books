@@ -46,6 +46,15 @@
         "sort-packages": true,
         "vendor-dir": ".Build/vendor"
     },
+    "scripts": {
+        "ci:php:lint": "find *.php Classes/ Configuration/ Tests/ -name '*.php' -print0 | xargs -0 -n 1 -P 4 php -l",
+        "ci:static": [
+            "@ci:php:lint"
+        ],
+        "ci": [
+            "@ci:static"
+        ]
+    },
     "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"
