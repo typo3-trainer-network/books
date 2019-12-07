@@ -23,4 +23,4 @@ jobs:
         - name: Checkout
           uses: actions/checkout@v1
         - name: Run PHP linting on all PHP files
-          run: find *.php Classes Configuration Tests -name '*.php' -print0 | xargs -0 -n 1 -P 4 php -l
+          run: composer ci:php:lint
