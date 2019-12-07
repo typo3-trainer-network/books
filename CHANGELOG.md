@@ -6,6 +6,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ## x.y.z
 
 ### Added
+- Lint the PHP files via GitHub actions (#25, #32)
 - Add the basic extension files (#5, #30)
 - Create all Extbase-relevant folders (#30)
 
