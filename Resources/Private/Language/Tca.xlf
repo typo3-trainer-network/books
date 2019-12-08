@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext">
+        <body>
+            <trans-unit id="book">
+                <source>Book</source>
+            </trans-unit>
+            <trans-unit id="book.title">
+                <source>Title</source>
+            </trans-unit>
+            <trans-unit id="book.year_of_publication">
+                <source>Year of publication</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
