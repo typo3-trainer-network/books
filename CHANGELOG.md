@@ -6,7 +6,9 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 ## x.y.z
 
 ### Added
+- Add linting for TypoScript (#27)
 - Create a "hello world" plugin without templating (#6, #39)
+- Add code sniffing for PHP (#26)
 - Add status badges to the README (#37)
 - Add a Composer script for PHP linting (#33)
 - Lint the PHP files via GitHub actions (#25, #32)
