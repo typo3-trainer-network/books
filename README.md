@@ -10,6 +10,16 @@
 This TYPO3 extension is an example for writing TYPO3 extensions.
 Is is used in the trainings provided by the TYPO3 Trainer Network.
 
+## Provided plugins
+
+This extension currently provides these plugins:
+
+- Books greeting (without template)
+- Books greeting (with template)
+
+It also provides a static TypoScript template "Books" that is required for
+TypoScript constants to override the defaults.
+
 ## License
 
 The code is licensed under the [Gnu General Public License V2](LICENSE).
