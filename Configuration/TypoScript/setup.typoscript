@@ -1,0 +1,7 @@
+plugin.tx_books {
+    view {
+        templateRootPath = {$plugin.tx_books.view.templateRootPath}
+        partialRootPath = {$plugin.tx_books.view.partialRootPath}
+        layoutRootPath = {$plugin.tx_books.view.layoutRootPath}
+    }
+}

@@ -17,4 +17,9 @@ class HelloWorldController extends ActionController
     {
         return 'Welcome home, traveller! Would you like something to read?';
     }
+
+    public function greetWithTemplateAction(): void
+    {
+        $this->view->assign('date', new \DateTimeImmutable('now'));
+    }
 }

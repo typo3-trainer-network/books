@@ -17,4 +17,15 @@ defined('TYPO3_MODE') or die('Access denied.');
             'HelloWorld' => '',
         ]
     );
+
+    \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
+        'TTN.Books',
+        'HelloWorldWithTemplate',
+        [
+            'HelloWorld' => 'greetWithTemplate',
+        ],
+        [
+            'HelloWorld' => '',
+        ]
+    );
 })();

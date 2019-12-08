@@ -12,3 +12,10 @@ defined('TYPO3_MODE') or die();
     // the icon visible in the drop-down in the BE
     'EXT:books/Resources/Public/Icons/Extension.svg'
 );
+
+\TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
+    'TTN.Books',
+    'HelloWorldWithTemplate',
+    'Books greeting (with template)',
+    'EXT:books/Resources/Public/Icons/Extension.svg'
+);
